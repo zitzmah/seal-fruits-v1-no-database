@@ -22,6 +22,10 @@
                 </li>
             </a>
 
+            <form action="/fruits/<%= i %>?_method=DELETE" method="post">
+                <input type="submit" value="delete">
+            </form>
+
             <% } %>
     </ul>
 
